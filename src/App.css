@@ -1,0 +1,73 @@
+body{
+  background-color: antiquewhite;
+}
+
+.App {
+  text-align: center;
+  margin: 50px;
+}
+
+.todo-wrapper {
+  width: 500px;
+  border: 1px solid black;
+  background-color: bisque;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 300px;
+}
+
+.todo-form {
+  height: 35px;
+  display: flex;
+  padding: 5%;
+}
+
+.todo-edit-form {
+  height: 25px;
+  display: flex;
+  padding: 10px 5%;
+}
+
+.todo-input {
+  width: 75%;
+  height: 80%;
+  margin-right: 5px;
+}
+
+.todo-button {
+  width: 20%;
+  height: 95%;
+  text-align: center;
+}
+
+.todo-task-wrapper {
+  display: flex;
+  padding: 0px 5%;
+  min-height: 50px;
+  align-items: center;
+}
+
+.todo-task {
+  width: 85%;
+  height: 25px;
+  margin: 10px 0px;
+  background-color: sienna;
+  color: beige;
+}
+
+.todo-action {    
+  padding: 2px 5px;
+  background-color: brown;
+  color: white;
+}
+
+.todo-action-icon {
+  padding: 0 5px;
+}
+
+.in-active {
+  text-decoration: line-through;
+  color: antiquewhite;
+  background-color: peru;
+}
